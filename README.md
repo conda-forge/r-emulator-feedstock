@@ -1,11 +1,11 @@
-About r-emulator
-================
+About r-emulator-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-emulator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/RobinHankin/emulator
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-emulator-feedstock/blob/main/LICENSE.txt)
 
 Summary: Allows one to estimate the output of a computer program, as a function of the input parameters, without actually running it. The computer program is assumed to be a Gaussian process, whose parameters are estimated using Bayesian techniques that give a PDF of expected program output.  This PDF is conditional on a training set of runs, each consisting of a point in parameter space and the model output at that point.  The emphasis is on complex codes that take weeks or months to run, and that have a large number of undetermined input parameters; many climate prediction models fall into this class.  The emulator essentially determines Bayesian posterior estimates of the PDF of the output of a model, conditioned on results from previous runs and a user-specified prior linear model.  The package includes functionality to evaluate quadratic forms efficiently.
 
